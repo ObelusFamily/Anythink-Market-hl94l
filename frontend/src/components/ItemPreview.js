@@ -42,7 +42,7 @@ const ItemPreview = (props) => {
           style={{ borderRadius: "20px" }}
         />
       }
-      {item.image.length == 0 &&
+      {item.image.length === 0 &&
         <img
           alt="item"
           src="/placeholder.png"
